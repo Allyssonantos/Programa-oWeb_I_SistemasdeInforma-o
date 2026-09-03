@@ -1,7 +1,28 @@
-h2{
-    color:blue;
+*{
+    margin: 0;
+    box-sizing: border-box; /*Incluir padding no cálculo de altura do elemento*/
 }
 
-#titulo{
-    color:green;
+@font-face { /* para defifir uma fonte que não é padrão do css */
+    font-family: 'Young Serif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+.root{
+    --white: hsl(0, 0%, 100%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --rose-white: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--eggshell);
+    color: var(--wenge-brown);
+    font-family: 'Outfit';
+    min-height: 100vh;
+    line-height: 1.4;
 }
