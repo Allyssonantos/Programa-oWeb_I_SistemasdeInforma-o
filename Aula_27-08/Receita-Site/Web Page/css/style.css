@@ -8,7 +8,7 @@
     src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
 
-.root{
+:root{
     --white: hsl(0, 0%, 100%);
     --eggshell: hsl(30, 54%, 90%);
     --light-grey: hsl(30, 18%, 87%);
