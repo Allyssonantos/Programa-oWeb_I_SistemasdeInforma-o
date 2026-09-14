@@ -20,9 +20,32 @@
 }
 
 body{
-    background-color: var(--eggshell);
-    color: var(--wenge-brown);
-    font-family: 'Outfit';
-    min-height: 100vh;
-    line-height: 1.4;
+    background-color: var(--eggshell); /*cor de fundo*/
+    color: var(--wenge-brown); /*cor do texto*/
+    font-family: 'Outfit'; /*fonte do texto*/
+    min-height: 100vh; /*tamanho mínimo que o body vai ocupar*/
+    line-height: 1.4; /*altura da linha do texto*/
+}
+
+h1, h2{
+    text-align: left; /*alinhamento de texto*/
+    font-family: 'Young Serif', serif; /*fonte do título*/
+    font-size: 2.3rem; /*tamanho da fonte do título*/
+    font-weight: 300; /*espessura da fonte do título*/
+}
+
+h1{
+    color: var(--dark-charcoal);
+    font-size: 2.8rem; /*tamanho da fonte do título*/
+}
+
+h2{
+    color: var(--nutmeg);
+    margin-bottom: 1rem; /*espaçamento inferior do título*/
+}
+
+img{
+    max-width: 100%; /*tamanho máximo da imagem*/
+    display: block; /*imagem como bloco*/
+    display: block; /*Propriedade sobre posição*/
 }
