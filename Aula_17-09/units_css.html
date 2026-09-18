@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>units</title>
     <style>
+        
+        h1 div{
+            background-color: red;
+            margin-bottom: 10px;
+            
+        }
 
         h1{
             background-color: antiquewhite;
@@ -37,6 +43,31 @@
             font-size: 10vh; /*Medida flexível que se baseia na altura da tela*/
         }
 
+        /*Definição de medidas para a segunda div*/
+
+        #px2{
+            width: 100px; /*Medida Fixa*/
+        }
+
+        #porcentagem2{
+            width: 50%; /*Medida flexível que se baseia no elemento pai*/
+        }
+
+        #em2{
+            width: 1em; /*Medida flexível que se baseia no elemento pai*/
+        }
+
+        #rem2{
+            width: 1rem; /*Medida flexível que se baseia no elemento raiz*/
+        }
+
+        #vw2{
+            width: 50vw; /*Medida flexível que se baseia na largura da tela*/
+        }
+
+        #vh2{
+            width: 50vh; /*Medida flexível que se baseia na altura da tela*/
+        }
 
     </style>
 </head>
@@ -49,6 +80,17 @@
         <h1 id="rem">2rem</h1>
         <h1 id="vw">10vw</h1>
         <h1 id="vh">10vh</h1>
+
+        <hr>
+
+        <div>
+            <h1 id="px2">px</h1>
+            <h1 id="porcentagem2">porcentagem</h1>
+            <h1 id="em2">em</h1>
+            <h1 id="rem2">rem</h1>
+            <h1 id="vw2">vw</h1>
+            <h1 id="vh2">vh</h1>
+        </div>
     </body>
 </main>
 
