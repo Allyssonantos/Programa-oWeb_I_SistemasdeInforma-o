@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ed;
+    color: #333;
+}
+
+header {
+    background-color: #b91c1c;
+    color: white;
+
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+
+/* BANNER */
+
+.banner {
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 50px 8%;
+
+    background-color: #7f1d1d;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    display: inline-block;
+
+    background-color: #f59e0b;
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #d97706;
+}
+
+
+/* CARDÁPIO */
+
+.cardapio {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.cardapio h2,
+.sobre h2,
+.contato h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: #991b1b;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    background-color: white;
+
+    width: 300px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px #0002;
+}
+
+.pizza img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.pizza h3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+.pizza p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.pizza strong {
+    display: block;
+
+    font-size: 20px;
+    color: #b91c1c;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    padding: 60px 15%;
+    text-align: center;
+
+    background-color: #fee2b3;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* CONTATO */
+
+.contato {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.contato p {
+    margin: 12px;
+    font-size: 18px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #7f1d1d;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner h2 {
+        font-size: 32px;
+    }
+
+}
